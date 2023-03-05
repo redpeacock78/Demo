@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "@libs/": "./libs/",
+    "@core/": "./core/",
+    "@utils/": "./utils/",
+    "@constants/": "./constants/",
+    "ky": "https://cdn.skypack.dev/ky@0.33.02?dts",
+    "hono": "https://deno.land/x/hono@v3.0.2/mod.ts",
+    "serve": "https://deno.land/std@0.157.0/http/server.ts",
+    "dotenv": "https://deno.land/std@0.178.0/dotenv/mod.ts",
+    "asserts": "https://deno.land/std@0.178.0/testing/asserts.ts"
+  }
+}

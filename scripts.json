@@ -1,0 +1,14 @@
+{
+  "$schema": "https://deno.land/x/denon@2.5.0/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "deno run index.ts",
+      "desc": "run my index.ts file",
+      "allow": ["env", "read", "net"], 
+      "importMap": "import_map.json",
+      "tsconfig": "deno.json",
+      "lock": "deno.lock",
+      "log": "info"
+    }
+  }
+}
